@@ -1,16 +1,16 @@
 @font-face {
   font-family: BarlowSemiBold;
-  src: url(fonts/Barlow/Barlow-SemiBold.ttf);
+  src: url(../fonts/Barlow/Barlow-SemiBold.ttf);
 }
 
 @font-face {
   font-family: BarlowBold;
-  src: url(fonts/Barlow/Barlow-Bold.ttf);
+  src: url(../fonts/Barlow/Barlow-Bold.ttf);
 }
 
 @font-face {
   font-family: Fraunces;
-  src: url(fonts/Fraunces/static/Fraunces_144pt_Soft/Fraunces_144pt_Soft-Black.ttf);
+  src: url(../fonts/Fraunces/static/Fraunces_144pt_Soft/Fraunces_144pt_Soft-Black.ttf);
 }
 
 #popup-menu {

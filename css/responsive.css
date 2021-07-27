@@ -4,7 +4,7 @@
   }
 
   .landing-page {
-    background-image: url(/images/desktop/image-header.jpg);
+    background-image: url(../images/desktop/image-header.jpg);
     width: 100%;
     height: calc(100vw / 1.8);
     flex: 1 0 100%;
@@ -53,14 +53,14 @@
     order: 2;
     width: 50%;
     height: calc(50vw / 1.2);
-    background-image: url(/images/desktop/image-transform.jpg);
+    background-image: url(../images/desktop/image-transform.jpg);
   }
 
   #stand-out {
     order: 3;
     width: 50%;
     height: calc(50vw / 1.2);
-    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-image: url(../images/desktop/image-stand-out.jpg);
   }
 
   #stand-out-card {
@@ -71,14 +71,14 @@
     order: 5;
     width: 50vw;
     height: calc(50vw / 1.2);
-    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-image: url(../images/desktop/image-graphic-design.jpg);
   }
 
   #photography {
     order: 6;
     width: 50%;
     height: calc(50vw / 1.2);
-    background-image: url(/images/desktop/image-photography.jpg);
+    background-image: url(../images/desktop/image-photography.jpg);
   }
 
   .testimonials {
@@ -114,19 +114,19 @@
   }
 
   .footer-img1 {
-    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
   }
 
   .footer-img2 {
-    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-image: url(../images/desktop/image-gallery-orange.jpg);
   }
 
   .footer-img3 {
-    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-image: url(../images/desktop/image-gallery-cone.jpg);
   }
 
   .footer-img4 {
-    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
   }
 
   .bg-img-container {
