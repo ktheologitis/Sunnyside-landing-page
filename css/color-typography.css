@@ -1,0 +1,149 @@
+@font-face {
+  font-family: BarlowSemiBold;
+  src: url(fonts/Barlow/Barlow-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: BarlowBold;
+  src: url(fonts/Barlow/Barlow-Bold.ttf);
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url(fonts/Fraunces/static/Fraunces_144pt_Soft/Fraunces_144pt_Soft-Black.ttf);
+}
+
+#popup-menu {
+  background-color: snow;
+}
+
+.menu-container > p {
+  font-family: BarlowSemiBold;
+  font-size: 1.2rem;
+  color: hsl(232, 10%, 55%);
+}
+
+.floating-action-button {
+  padding: 0.8em 1.4em;
+  font-family: Fraunces;
+  font-size: 1.1rem;
+  border-radius: 4rem;
+  border: none;
+  background-color: hsl(51, 100%, 49%);
+}
+
+.title {
+  color: snow;
+  font-family: Fraunces;
+  font-size: 2.4rem;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.card {
+  font-family: Fraunces;
+  text-align: center;
+}
+
+.card-title {
+  color: hsl(212, 27%, 19%);
+  font-size: 2.4rem;
+}
+
+.card-text {
+  color: hsl(232, 10%, 55%);
+  font-family: BarlowSemiBold;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.card-button {
+  font-family: Fraunces;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border: none;
+}
+
+.card-button:hover > .button-bar {
+  opacity: 100%;
+}
+
+.button-bar {
+  border-radius: 20px;
+  background-color: hsl(51, 100%, 49%);
+  opacity: 30%;
+}
+
+.button-bar-stand-out {
+  background-color: hsl(7, 99%, 70%);
+}
+
+.bg-img-container h1 {
+  font-family: Fraunces;
+  font-size: 2.1rem;
+}
+
+.bg-img-container p {
+  font-family: BarlowBold;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#graphic-design {
+  color: hsl(167, 40%, 24%);
+}
+
+#photography {
+  color: hsl(198, 62%, 26%);
+}
+
+.testimonials {
+  background-color: snow;
+}
+
+.testimonials > h1 {
+  font-family: Fraunces;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  color: hsl(210, 4%, 67%);
+  text-align: center;
+}
+
+.avatar {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.single-testimonial p {
+  font-family: BarlowBold;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: hsl(213, 9%, 39%);
+  text-align: center;
+}
+
+.testimonial-name-position h1 {
+  font-family: Fraunces;
+}
+
+.testimonial-name-position p {
+  font: BarlowSemiBold;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: hsl(210, 4%, 67%);
+}
+
+.footer-content {
+  background-color: hsl(166, 44%, 69%);
+  font-family: BarlowSemiBold;
+  font-size: 1.3rem;
+}
+
+.nav-items-list {
+  color: hsl(167, 40%, 24%, 70%);
+}
