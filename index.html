@@ -4,121 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="stylesheet" href="./css/color-typography.css" />
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body>
-    <div class="content">
-      <div id="popup-menu">
-        <div class="menu-container">
-          <p>About</p>
-          <p>Services</p>
-          <p>Projects</p>
-          <button class="floating-action-button">CONTACT</button>
-        </div>
-      </div>
-      <div class="landing-page">
+    <div class="header">
+      <picture class="header-image">
+        <!-- prettier-ignore -->
+        <source srcset="./images/desktop/image-header.jpg" media="(min-width: 768px)">
+        <!-- prettier-ignore -->
+        <img class="header-image" src="./images/mobile/image-header.jpg" alt="" />
+      </picture>
+      <section class="header-content">
         <div class="appbar">
-          <img id="logo" src="./images/logo.svg" alt="logo" />
-          <img id="burger-icon-button" src="./images/icon-hamburger.svg" alt="" onclick="toggleMenu()" />
-          <div class="horizontal-tab-menu">
-            <p>About</p>
-            <p>Services</p>
-            <p>Projects</p>
-            <button class="floating-action-button">CONTACT</button>
-          </div>
+          <img src="./images/logo.svg" alt="Logo" />
+          <img src="./images/icon-hamburger.svg" alt="burger-icon" onclick="toggleMenu()" />
+          <nav aria-label="Main navigation desktop view">
+            <ul class="nav-items">
+              <li>About</li>
+              <li>Services</li>
+              <li>Projects</li>
+              <button class="contact-button">CONTACT</button>
+            </ul>
+          </nav>
         </div>
-        <h1 class="title">WE ARE CREATIVES</h1>
-        <img class="arrow" src="./images/icon-arrow-down.svg" alt="" />
-      </div>
-      <div id="transform" class="bg-img-container"></div>
-      <div id="transform-card" class="card">
-        <h1 class="card-title">Transform your brand</h1>
-        <p class="card-text">
-          We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most
-          of the marketing for you.
-        </p>
-        <button class="card-button" onmouseover="">
-          <div class="button-bar"></div>
-          LEARN MORE
-        </button>
-      </div>
-      <div id="stand-out" class="bg-img-container"></div>
-      <div id="stand-out-card" class="card">
-        <h1 class="card-title">Stand out to the right audience</h1>
-        <p class="card-text">
-          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in
-          digital places.
-        </p>
-        <button class="card-button">
-          <div class="button-bar button-bar-stand-out"></div>
-          LEARN MORE
-        </button>
-      </div>
-      <div id="graphic-design" class="bg-img-container">
-        <h1>Graphic Design</h1>
-        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
-      </div>
-      <div id="photography" class="bg-img-container">
-        <h1>Photography</h1>
-        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-      </div>
-      <div class="testimonials">
-        <h1>CLIENT TESTIMONIALS</h1>
-        <div class="single-testimonial">
-          <img class="avatar" src="./images/image-emily.jpg" alt="Avatar" />
-          <p class="testimonial-text">
-            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-          </p>
-          <div class="testimonial-name-position">
-            <h1>Emily R.</h4>
-            <p >Marketing Director</p>
-          </div>
+        <div id="popup-menu">
+          <nav aria-label="Main navigation mobile view"></nav>
+          <ul class="popup-menu-container">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <button class="contact-button">CONTACT</button>
+          </ul>
         </div>
-        <div class="single-testimonial">
-          <img class="avatar" src="./images/image-thomas.jpg" alt="Avatar" />
-          <p class="testimonial-text">
-            Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
-          </p>
-          <div class="testimonial-name-position">
-            <h1>Thomas S.</h4>
-            <p >Client Operating Officer</p>
-          </div>
+        <div class="title-arrow">
+          <h1 class="title">WE ARE CREATIVES</h1>
+          <img class="arrow" src="./images/icon-arrow-down.svg" alt="" />
         </div>
-        <div class="single-testimonial">
-          <img class="avatar" src="./images/image-jennie.jpg" alt="Avatar" />
-          <p class="testimonial-text">
-            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-          </p>
-          <div class="testimonial-name-position">
-            <h1>Jennie F.</h4>
-            <p >Business Owner</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-images">
-        <div class="footer-img1"></div>
-        <div class="footer-img2"></div>
-        <div class="footer-img3"></div>
-        <div class="footer-img4"></div>
-      </div>
-      <div class="footer-content"> 
-        <img class="footer-logo" src="./images/logo-green.svg" alt="logo">
-        <div class="nav-items-list">
-          <p>About</p>
-          <p>Services</p>
-          <p>Projects</p>
-        </div>
-        <div class="icon-list">
-          <img src="./images/icon-facebook.svg" alt="">
-          <img src="./images/icon-instagram.svg" alt="">
-          <img src="./images/icon-twitter.svg" alt="">
-          <img src="./images/icon-pinterest.svg" alt="">
-        </div>
-      </div>
+      </section>
     </div>
+    <main>
+      <section id="transform-section" class="section">
+        <picture class="section-image">
+          <!-- prettier-ignore -->
+          <source srcset="./images/desktop/image-transform.jpg" media="(min-width: 768px)">
+          <!-- prettier-ignore -->
+          <img class="section-image" src="./images/mobile/image-transform.jpg" alt="Transform section image">
+        </picture>
+        <article class="section-article">
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <button class="section-button">
+            <p>LEARN MORE</p>
+            <div class="section-button-bar">
+          </button>
+          
+        </article>
+      </section>
+      <section id="stand-out-section" class="section">
+        <picture class="section-image">
+          <!-- prettier-ignore -->
+          <source srcset="./images/desktop/image-stand-out.jpg" media="(min-width: 768px)">
+          <!-- prettier-ignore -->
+          <img class="section-image" src="./images/mobile/image-stand-out.jpg" alt="Stand out section image">
+        </picture>
+        <article class="section-article">
+          <h2>Stand out to the right audience</h2>
+          <p>
+            Using a collaboration formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.
+          </p>
+          <button class="section-button">
+            <p>LEARN MORE</p>
+            <div class="section-button-bar">
+          </button>          
+        </article>
+      </section>
+    </main>
   </body>
   <script src="nav-logic.js"></script>
 </html>

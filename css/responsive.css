@@ -1,158 +1,94 @@
+@media all and (min-width: 375px) {
+  #popup-menu {
+    height: 350px;
+  }
+}
+
+@media all and (min-width: 425px) {
+  #popup-menu {
+    height: 400px;
+  }
+}
+
 @media all and (min-width: 768px) {
-  .content {
-    flex-flow: row wrap;
+  .title {
+    font-size: 3rem;
   }
 
-  .landing-page {
-    background-image: url(../images/desktop/image-header.jpg);
-    width: 100%;
-    height: calc(100vw / 1.8);
-    flex: 1 0 100%;
-    order: 0;
+  .appbar > img:nth-child(1) {
+    width: 9rem;
   }
 
-  .appbar > #logo {
-    height: 2.1rem;
-  }
-
-  .appbar > #burger-icon-button {
+  .appbar > img:nth-child(2) {
     display: none;
   }
 
-  .landing-page > * + * {
-    margin-top: 7.5rem;
+  nav {
+    display: block;
   }
 
-  .horizontal-tab-menu {
-    width: 500px;
+  .nav-items {
+    width: 450px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .horizontal-tab-menu > p {
+    color: snow;
     font-family: BarlowSemiBold;
     font-size: 1.1rem;
-    color: snow;
   }
 
-  .horizontal-tab-menu > button {
+  .contact-button {
     background-color: snow;
   }
 
-  .title {
-    font-size: 3.4rem;
+  .title-arrow {
+    padding-bottom: 3rem;
   }
 
-  #transform-card {
-    order: 1;
+  .section {
+    display: flex;
+    align-items: stretch;
   }
 
-  #transform {
-    order: 2;
-    width: 50%;
-    height: calc(50vw / 1.2);
-    background-image: url(../images/desktop/image-transform.jpg);
+  #transform-section {
+    flex-direction: row-reverse;
   }
 
-  #stand-out {
-    order: 3;
-    width: 50%;
-    height: calc(50vw / 1.2);
-    background-image: url(../images/desktop/image-stand-out.jpg);
+  #stand-out-section {
+    flex-direction: row;
   }
 
-  #stand-out-card {
-    order: 4;
-  }
-
-  #graphic-design {
-    order: 5;
-    width: 50vw;
-    height: calc(50vw / 1.2);
-    background-image: url(../images/desktop/image-graphic-design.jpg);
-  }
-
-  #photography {
-    order: 6;
-    width: 50%;
-    height: calc(50vw / 1.2);
-    background-image: url(../images/desktop/image-photography.jpg);
-  }
-
-  .testimonials {
-    order: 7;
-    padding: 8rem 2.4rem;
-    width: 100%;
-    flex: 0 0 100%;
-    flex-flow: row wrap;
-    justify-content: space-around;
-  }
-
-  .testimonials > h1 {
-    flex: 1 1 100%;
-  }
-
-  .single-testimonial {
-    width: 25%;
-    flex: 0 1 25%;
-  }
-
-  .single-testimonial > * + * {
-    margin-top: 3.2rem;
-  }
-
-  .footer-images {
-    order: 8;
-    flex: 1 0 100%;
-  }
-
-  .footer-images > * {
-    flex: 1 0 25%;
-    height: 25vw;
-  }
-
-  .footer-img1 {
-    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
-  }
-
-  .footer-img2 {
-    background-image: url(../images/desktop/image-gallery-orange.jpg);
-  }
-
-  .footer-img3 {
-    background-image: url(../images/desktop/image-gallery-cone.jpg);
-  }
-
-  .footer-img4 {
-    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
-  }
-
-  .bg-img-container {
-    flex: 1 0 50vw;
-  }
-
-  .bg-img-container p {
-    padding: 0 12rem;
-    padding-bottom: 5rem;
-  }
-
-  .footer-content {
-    order: 9;
-  }
-
-  .nav-items-list {
-    width: 30%;
-  }
-
-  .card {
-    padding: 8vw 12vw;
-    width: 50vw;
-    flex: 1 0 50vw;
-    height: calc(50vw / 1.2);
+  .section-article {
+    padding: 0rem 3rem;
+    flex: 1 1 50%;
+    text-align: left;
     align-items: flex-start;
-    text-align: start;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: calc(50vw / 1.2);
+  }
+
+  .section-image {
+    flex: 1 1 50%;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .title-arrow {
+    padding-bottom: 12rem;
+  }
+
+  .section-article {
+    padding: 0rem 6rem;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .title-arrow {
+    padding-bottom: 15rem;
+  }
+
+  .section-article {
+    padding: 0rem 10rem;
   }
 }
