@@ -40,11 +40,11 @@ button {
   text-align: center;
 }
 
-#popup-menu {
+#mobile-popup-menu {
   background-color: snow;
 }
 
-.popup-menu-container > li {
+.mobile-nav li {
   font-family: BarlowSemiBold;
   font-size: 1.2rem;
   color: hsl(232, 10%, 55%);
@@ -90,10 +90,78 @@ button {
   opacity: 40%;
 }
 
+.section-button:hover > .section-button-bar {
+  opacity: 100%;
+}
+
 #transform-section .section-button-bar {
   background-color: hsl(51, 100%, 49%);
 }
 
 #stand-out-section .section-button-bar {
   background-color: hsl(7, 99%, 70%);
+}
+
+.graphic-design-article > h2,
+p {
+  color: hsl(167, 40%, 24%);
+}
+
+.photography-article > h2,
+p {
+  color: hsl(198, 62%, 26%);
+}
+
+.graphic-design-article > h2,
+.photography-article > h2 {
+  font-size: 2.2rem;
+}
+
+.graphic-design-article > p,
+.photography-article > p {
+  font-size: 1.1rem;
+}
+
+.testimonials-section {
+  background-color: snow;
+}
+
+.testimonials-section > h2 {
+  color: hsl(210, 4%, 67%);
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.single-testimonial > img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.single-testimonial > p,
+.client-info {
+  text-align: center;
+}
+
+.single-testimonial > p {
+  color: hsl(232, 10%, 55%);
+  font-size: 1.1rem;
+}
+
+.client-info > h3 {
+  font-size: 1.4rem;
+}
+
+.client-info > p {
+  color: hsl(210, 4%, 67%);
+}
+
+footer {
+  background-color: hsl(166, 44%, 69%);
+}
+
+.footer-nav li {
+  font-family: BarlowSemiBold;
+  font-size: 1.1rem;
+  color: hsl(168, 34%, 41%);
 }

@@ -16,12 +16,12 @@
         <source srcset="./images/desktop/image-header.jpg" media="(min-width: 768px)">
         <!-- prettier-ignore -->
         <img class="header-image" src="./images/mobile/image-header.jpg" alt="" />
-      </picture>
+      </picture>      
       <section class="header-content">
         <div class="appbar">
           <img src="./images/logo.svg" alt="Logo" />
           <img src="./images/icon-hamburger.svg" alt="burger-icon" onclick="toggleMenu()" />
-          <nav aria-label="Main navigation desktop view">
+          <nav aria-label="Main navigation, desktop view" class="desktop-nav">
             <ul class="nav-items">
               <li>About</li>
               <li>Services</li>
@@ -30,14 +30,17 @@
             </ul>
           </nav>
         </div>
-        <div id="popup-menu">
-          <nav aria-label="Main navigation mobile view"></nav>
-          <ul class="popup-menu-container">
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <button class="contact-button">CONTACT</button>
-          </ul>
+        <div id="mobile-popup-menu">
+          <nav aria-label="Main navigation, mobile view" class="mobile-nav">
+            <ul>
+              <li>About</li>
+              <li>Services</li>
+              <li>Projects</li>
+              <li>
+                <button class="contact-button">CONTACT</button>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="title-arrow">
           <h1 class="title">WE ARE CREATIVES</h1>
@@ -84,6 +87,103 @@
           </button>          
         </article>
       </section>
+      <section class="graphic-design-photography-section">
+        <section class="graphic-design-section">
+          <picture class="bg-image">
+            <!-- prettier-ignore -->
+            <source srcset="./images/desktop/image-graphic-design.jpg" media="(min-width: 768px)">
+            <!-- prettier-ignore -->
+            <img class="section-image" src="./images/mobile/image-graphic-design.jpg" alt="Stand out section image">
+          </picture>
+          <article class="graphic-design-article">
+            <h2>Graphic Design</h2>
+            <p>Great design makes you memprable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+          </article>
+        </section>
+        <section class="photography-section">
+          <picture class="bg-image">
+            <!-- prettier-ignore -->
+            <source srcset="./images/desktop/image-photography.jpg" media="(min-width: 768px)">
+            <!-- prettier-ignore -->
+            <img class="section-image" src="./images/mobile/image-photography.jpg" alt="Stand out section image">
+          </picture>
+          <article class="photography-article">
+            <h2>Photography</h2>
+            <p>Increase your credibility by getting the most stunning, high quality photos that improve your business image.</p>
+          </article>
+        </section>
+      </section>
+      <section class="testimonials-section">
+        <h2>CLIENT TESTIMONIALS</h2>
+        <section class="testimonials">
+          <article class="single-testimonial">
+            <img src="./images/image-emily.jpg" alt="avatar image">
+            <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <div class="client-info">
+              <h3 class="client-name">Emily R.</h2>
+              <p class="client-position">Marketing Director</p>
+            </div>
+          </article>
+          <article class="single-testimonial">
+            <img src="./images/image-thomas.jpg" alt="avatar image">
+            <p>Sunnyside's enthusiasm coupled with their keen interest in our brand's siccess made it a satisfying and enjoyable experience.</p>
+            <div class="client-info">
+              <h3 class="client-name">Thomas S.</h2>
+              <p class="client-position">Chief Operating Officer</p>
+            </div>
+          </article>
+          <article class="single-testimonial">
+            <img src="./images/image-jennie.jpg" alt="avatar image">
+            <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <div class="client-info">
+              <h3 class="client-name">Jennie F.</h2>
+              <p class="client-position">Business Owner</p>
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class="image-gallery">
+        <picture class="gallery-image">
+          <!-- prettier-ignore -->
+          <source srcset="./images/desktop/image-gallery-milkbottles.jpg" media="(min-width: 768px)">
+          <!-- prettier-ignore -->
+          <img class="gallery-image" src="./images/mobile/image-gallery-milkbottles.jpg" alt="Gallery image">
+        </picture>
+        <picture class="gallery-image">
+          <!-- prettier-ignore -->
+          <source srcset="./images/desktop/image-gallery-orange.jpg" media="(min-width: 768px)">
+          <!-- prettier-ignore -->
+          <img class="gallery-image" src="./images/mobile/image-gallery-orange.jpg" alt="Gallery image">
+        </picture>
+        <picture class="gallery-image">
+          <!-- prettier-ignore -->
+          <source srcset="./images/desktop/image-gallery-cone.jpg" media="(min-width: 768px)">
+          <!-- prettier-ignore -->
+          <img class="gallery-image" src="./images/mobile/image-gallery-cone.jpg" alt="Gallery image">
+        </picture>
+        <picture class="gallery-image">
+          <!-- prettier-ignore -->
+          <source srcset="./images\desktop\image-gallery-sugarcubes.jpg" media="(min-width: 768px)">
+          <!-- prettier-ignore -->
+          <img class="gallery-image" src="./images\mobile\image-gallery-sugar-cubes.jpg" alt="Gallery image">
+        </picture>
+      </section>
+      <footer>
+        <img class="footer-logo" src="./images/logo-green.svg" alt="logo">
+        <nav class="footer-nav" aria-label="Footer navigation menu">
+          <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+          </ul>
+        </nav>
+        <div class="footer-icons">
+          <img src="./images/icon-facebook.svg" alt="">
+          <img src="./images/icon-instagram.svg" alt="">
+          <img src="./images/icon-twitter.svg" alt="">
+          <img src="./images/icon-pinterest.svg" alt="">
+        </div>
+      </footer>
     </main>
   </body>
   <script src="nav-logic.js"></script>

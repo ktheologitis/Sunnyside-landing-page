@@ -1,4 +1,4 @@
-let navMenu = document.getElementById("popup-menu");
+let navMenu = document.getElementById("mobile-popup-menu"); 
 
 const toggleMenu = () => {
     let currentDisplayVal = window.getComputedStyle(navMenu).getPropertyValue('display');
